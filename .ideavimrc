@@ -1,0 +1,5 @@
+set showmode
+set easymotion
+set clipboard=unnamed
+set rnu
+set nu
