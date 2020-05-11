@@ -1,0 +1,46 @@
+{
+    "arduino.path": "C:\\Program Files (x86)\\Arduino",
+    "arduino.logLevel": "info",
+    "arduino.enableUSBDetection": true,
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
+    "editor.formatOnSave": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.cursorStyle": "line",
+    // "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminal.integrated.shell.windows": "cmd.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "/k",
+        "C:\\Cmder\\vendor\\bin\\vscode_init.cmd"
+    ],
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "prettier.printWidth": 180,
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "cSpell.userWords": [
+        "neighbours",
+        "noopener",
+        "noreferrer"
+    ],
+    "vim.handleKeys": {
+        "<C-w>": false,
+        "<C-a>": true,
+    },
+    "vim.easymotion": true,
+    "vim.highlightedyank.enable": true,
+    "vim.useSystemClipboard": true,
+    "files.autoSave": "afterDelay",
+    "java.saveActions.organizeImports": true
+}
