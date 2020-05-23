@@ -1,6 +1,13 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
+set noerrorbells
+set smartindent
+set number relativenumber
+set noswapfile
+
+let mapleader = " "
+
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
@@ -18,15 +25,19 @@ Plugin 'jszakmeister/vim-togglecursor'
 Plugin 'unblevable/quick-scope' 
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-surround'
+Plugin 'mbbill/undotree'
+Plugin 'ctrlpvim/ctrlp.vim'
 call vundle#end()
 colorscheme codedark
 
 " mappings
 map <C-n> :NERDTreeToggle<CR>
+nnoremap <leader>u :UndotreeToggle<CR> :UndotreeFocus<CR>
 set timeoutlen=1000 ttimeoutlen=0
 
 let g:jsx_ext_required = 0
 let g:vim_jsx_pretty_colorful_config = 1 " default 0
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 set laststatus=2
 set noshowmode
 set mouse=a
@@ -35,8 +46,6 @@ let g:lightline = {
      \ 'colorscheme': 'one',
     \ }
 let g:togglecursor_force = 'xterm'
-set number relativenumber
-
 let g:qs_highlight_on_keys = ['f', 'F', 't', 'T']
 highlight QuickScopePrimary guifg='#afff5f' gui=underline ctermfg=155 cterm=underline
 highlight QuickScopeSecondary guifg='#5fffff' gui=underline ctermfg=81 cterm=underline
