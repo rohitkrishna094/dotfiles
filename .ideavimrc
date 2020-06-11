@@ -1,5 +1,10 @@
 set showmode
+let mapleader=" "
 set easymotion
 set clipboard=unnamed
 set rnu
 set nu
+set surround
+noremap <Leader>p "0p
+noremap <Leader>P "0P
+vnoremap <Leader>p "0p
