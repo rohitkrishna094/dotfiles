@@ -1,24 +1,24 @@
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'preservim/nerdtree'
-Plugin 'tomasiser/vim-code-dark'
-Plugin 'pangloss/vim-javascript'
-Plugin 'maxmellon/vim-jsx-pretty'
-Plugin 'itchyny/lightline.vim'
-Plugin 'jszakmeister/vim-togglecursor'
-"Plugin 'terryma/vim-multiple-cursors'
-"Plugin 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
-Plugin 'unblevable/quick-scope' 
-Plugin 'airblade/vim-gitgutter'
-Plugin 'tpope/vim-surround'
-Plugin 'mbbill/undotree'
-Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'easymotion/vim-easymotion'
-Plugin 'haya14busa/incsearch.vim'
-Plugin 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
-Plugin 'tpope/vim-abolish'
-call vundle#end()
+call plug#begin('~/.vim/plugged')
+
+Plug 'preservim/nerdtree'
+Plug 'tomasiser/vim-code-dark'
+Plug 'pangloss/vim-javascript'
+Plug 'maxmellon/vim-jsx-pretty'
+Plug 'itchyny/lightline.vim'
+Plug 'jszakmeister/vim-togglecursor'
+"Plug 'terryma/vim-multiple-cursors'
+"Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
+Plug 'unblevable/quick-scope' 
+Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-surround'
+Plug 'mbbill/undotree'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'easymotion/vim-easymotion'
+Plug 'haya14busa/incsearch.vim'
+Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
+Plug 'tpope/vim-abolish'
+
+call plug#end()
 
 colorscheme codedark
 filetype off                  " required
