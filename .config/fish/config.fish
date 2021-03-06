@@ -90,6 +90,7 @@ alias hugo='hugo.exe'
 
 # Docker image aliases
 alias dbuild='docker build -t'
+alias dimg='docker image'
 alias dimgs='docker images'
 alias dimgrm='docker image rm'
 
@@ -103,3 +104,7 @@ alias drm='docker rm'
 
 # Docker Run aliases
 alias drun='docker run -dp'
+
+# Docker volume aliases
+alias dvls='docker volume ls'
+alias dvc='docker volume create'
