@@ -10,7 +10,9 @@ alias vi "vim $argv"
 
 alias c clear
 alias e exit
-alias ll "ls -al --color"
+# alias ll "ls -al --color"
+alias ll "lsd -al --color"
+alias ls "lsd"
 alias l. "ls -d .* --color"
 alias df "df -H"
 alias du "du -ch"
@@ -18,51 +20,86 @@ alias du "du -ch"
 # cd related alises
 alias up "cd .."
 alias cdm='cd /mnt/c/Users/rohit/'
-alias cdd='cd /mnt/c/Users/rohit/Desktop'
-alias cdg='cd /mnt/c/Users/rohit/Desktop/github'
-alias cddoc='cd /mnt/c/Users/rohit/Documents'
+alias cdhd='cd /mnt/c/Users/rohit/Desktop'
+alias cdhg='cd /mnt/c/Users/rohit/Desktop/github'
+alias cdhdoc='cd /mnt/c/Users/rohit/Documents'
 alias .. "cd .."
 alias .1 "cd .."
 alias .2 "cd ../.."
 alias .3 "cd ../../.."
 alias .4 "cd ../../../.."
 
+# wsl aliases
+alias cdd="cd ~/wslDesktop"
+alias cdg="cd ~/wslDesktop/github"
+
 # git aliases
 alias ga='git add'
 alias gaa='git add .'
 alias gau='git add --update'
+alias grv='git remote -v' 
+
 alias gb='git branch'
 alias gbd='git branch --delete '
+alias gba='git branch -a '
+
 alias gc='git commit'
 alias gcm='git commit --message'
 alias gcf='git commit --fixup'
+
 alias gco='git checkout'
 alias gcob='git checkout -b'
 alias gcom='git checkout master'
 alias gcos='git checkout staging'
 alias gcod='git checkout develop'
+alias gce='git checkout -- .'
+
 alias gd='git diff'
 alias gda='git diff HEAD'
+
 alias gi='git init'
+
 alias glg='git log --graph --oneline --decorate --all'
 alias gld='git log --pretty=format:"%h %ad %s" --date=short --all'
+
 alias gm='git merge --no-ff'
 alias gma='git merge --abort'
 alias gmc='git merge --continue'
+
 alias gp='git pull'
 alias gpr='git pull --rebase'
 alias gr='git rebase'
+
 alias gs='git status'
 alias gss='git status --short'
+
 alias gst='git stash'
 alias gsta='git stash apply'
 alias gstd='git stash drop'
 alias gstl='git stash list'
 alias gstp='git stash pop'
 alias gsts='git stash save'
+
 alias gg='git graph'
+
 alias j='java'
 alias jc='javac'
 
 # hugo aliases
 alias hugo='hugo.exe'
+
+# Docker image aliases
+alias dbuild='docker build -t'
+alias dimgs='docker images'
+alias dimgrm='docker image rm'
+
+# Docker container aliases
+alias dps='docker ps'
+alias dpsa='docker ps -a'
+alias dcls='docker container ls'
+alias dclsa='docker container ls -a'
+alias dstop='docker stop'
+alias drm='docker rm'
+
+# Docker Run aliases
+alias drun='docker run -dp'
