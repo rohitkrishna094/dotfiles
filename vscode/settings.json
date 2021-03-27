@@ -1,46 +1,121 @@
 {
-    "arduino.path": "C:\\Program Files (x86)\\Arduino",
-    "arduino.logLevel": "info",
-    "arduino.enableUSBDetection": true,
-    "C_Cpp.intelliSenseEngine": "Tag Parser",
-    "editor.formatOnSave": true,
-    "workbench.iconTheme": "material-icon-theme",
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.enablePreviewFromQuickOpen": false,
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "terminal.integrated.cursorStyle": "line",
-    // "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "terminal.integrated.shell.windows": "cmd.exe",
-    "terminal.integrated.shellArgs.windows": [
-        "/k",
-        "C:\\Cmder\\vendor\\bin\\vscode_init.cmd"
-    ],
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-    },
-    "prettier.printWidth": 180,
-    "explorer.compactFolders": false,
-    "explorer.confirmDelete": false,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "[markdown]": {
-        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
-    },
-    "cSpell.userWords": [
-        "neighbours",
-        "noopener",
-        "noreferrer"
-    ],
-    "vim.handleKeys": {
-        "<C-w>": false,
-        "<C-a>": true,
-    },
-    "vim.easymotion": true,
-    "vim.highlightedyank.enable": true,
-    "vim.useSystemClipboard": true,
-    "files.autoSave": "afterDelay",
-    "java.saveActions.organizeImports": true
+  "arduino.path": "C:\\Program Files (x86)\\Arduino",
+  "arduino.logLevel": "info",
+  "arduino.enableUSBDetection": true,
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.cursorStyle": "line",
+  // "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "terminal.integrated.shell.windows": "cmd.exe",
+  "terminal.integrated.shellArgs.windows": ["/k", "C:\\Cmder\\vendor\\bin\\vscode_init.cmd"],
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "prettier.printWidth": 180,
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "cSpell.userWords": ["bulma", "datasets", "gradle's", "heapify", "neighbours", "noopener", "noreferrer"],
+  "vim.handleKeys": {
+    "<C-w>": false,
+    "<C-a>": true,
+    "<C-f>": false,
+    "<C-y>": false,
+    "<C-n>": false,
+    "<C-c>": false,
+    "<C-v>": false
+  },
+  "vim.easymotion": true,
+  "vim.highlightedyank.enable": true,
+  "vim.useSystemClipboard": true,
+  "java.saveActions.organizeImports": true,
+  "workbench.startupEditor": "none",
+  "sync.gist": "af65d2a91d4a4712ea3cac11736a8410",
+  "vim.vimrc.enable": true,
+  // "[javascriptreact]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  "vim.leader": " ",
+  "grammarly.userWords": ["gradle's", "lombok"],
+  "explorer.confirmDragAndDrop": false,
+  "java.semanticHighlighting.enabled": true,
+  "java.requirements.JDK11Warning": false,
+  "debug.allowBreakpointsEverywhere": true,
+  "debug.showBreakpointsInOverviewRuler": true,
+  "editor.lineNumbers": "relative",
+  "emojisense.languages": {
+    "markdown": true,
+    "git-commit": true,
+    "plaintext": true,
+    "json": true,
+    "javascript": true,
+    "javascriptreact": true
+  },
+  "window.zoomLevel": 0,
+  "grammarly.autoActivate": false,
+  "vim.vimrc.path": "C:\\\\Users\\\\rohit\\\\Desktop\\\\.vimrc",
+  "prettier.singleQuote": true,
+  "todo-tree.tree.showScanModeButton": false,
+  "files.exclude": {
+    "*.lock": true,
+    "**/.git": true,
+    "**/build": true,
+    "**/coverage": true,
+    "**/dist": true,
+    "**/node_modules/**": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "editor.fontFamily": "'cascadia code',Consolas, 'Courier New', monospace",
+  "editor.fontSize": 13,
+  "[Log]": {
+    "editor.wordWrap": "on"
+  },
+  "vscode-neovim.neovimExecutablePaths.win32": "C:\\tools\\neovim\\Neovim\\bin\\nvim.exe",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.rulers": [140], // auto format the file on each save
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "eslint.alwaysShowStatus": true,
+  "eslint.lintTask.enable": true,
+  "eslint.packageManager": "yarn", // change to npm if you use npm
+  "eslint.quiet": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "jest.enableInlineErrorMessages": true,
+  "jest.showCoverageOnLoad": true,
+  "jest.runAllTestsFirst": false,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": false,
+  "todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX", "[ ]", "[x]"],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "java.project.importHint": false
 }

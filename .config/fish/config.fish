@@ -20,6 +20,8 @@ alias du "du -ch"
 # cd related alises
 alias up "cd .."
 alias cdm='cd /mnt/c/Users/rohit/'
+alias cdc='cd /mnt/c'
+alias cda='cd /mnt/c/Apache'
 alias cdhd='cd /mnt/c/Users/rohit/Desktop'
 alias cdhg='cd /mnt/c/Users/rohit/Desktop/github'
 alias cdhdoc='cd /mnt/c/Users/rohit/Documents'
@@ -38,6 +40,7 @@ alias ga='git add'
 alias gaa='git add .'
 alias gau='git add --update'
 alias grv='git remote -v' 
+alias gcl='git clone'
 
 alias gb='git branch'
 alias gbd='git branch --delete '
@@ -81,6 +84,7 @@ alias gstp='git stash pop'
 alias gsts='git stash save'
 
 alias gg='git graph'
+alias gcount='git rev-list --all --count'
 
 alias j='java'
 alias jc='javac'
@@ -108,3 +112,13 @@ alias drun='docker run -dp'
 # Docker volume aliases
 alias dvls='docker volume ls'
 alias dvc='docker volume create'
+
+# Docker network aliases
+alias dnls='docker network ls'
+alias dnc='docker network create'
+
+# Docker compose aliases
+alias dcomp='docker-compose'
+alias dcompd='docker-compose down'
+alias dcompu='docker-compose up'
+alias dcompud='docker-compose up -d'
