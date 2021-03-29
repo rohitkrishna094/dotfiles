@@ -122,3 +122,6 @@ alias dcomp='docker-compose'
 alias dcompd='docker-compose down'
 alias dcompu='docker-compose up'
 alias dcompud='docker-compose up -d'
+
+# windows aliases
+alias kp "cmd.exe /c C:/Users/rohit/Desktop/scripts/killport.bat"
