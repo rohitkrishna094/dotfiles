@@ -48,6 +48,7 @@ alias gba='git branch -a '
 
 alias gc='git commit'
 alias gcm='git commit --message'
+alias gcam='git add . && git commit --message'
 alias gcf='git commit --fixup'
 
 alias gco='git checkout'
