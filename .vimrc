@@ -37,6 +37,7 @@ let g:qs_highlight_on_keys = ['f', 'F', 't', 'T']
 let g:incsearch#auto_nohlsearch = 1
 let g:coc_disable_startup_warning = 1
 
+let NERDTreeShowHidden=1
 " mappings
 map <C-n> :NERDTreeToggle<CR>
 nnoremap <leader>u :UndotreeToggle<CR> :UndotreeFocus<CR>
@@ -80,3 +81,4 @@ augroup numbertoggle
   autocmd!
   autocmd BufLeave,WinLeave,FocusLost * set norelativenumber
 augroup END
+

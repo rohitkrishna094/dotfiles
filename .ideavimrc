@@ -22,3 +22,10 @@ imap <S-Left> <Esc>v<Left>
 imap <S-Right> <Esc>v<Right>
 
 map <Leader> <Plug>(easymotion-prefix)
+set hlsearch
+set incsearch
+set highlightedyank
+set textobj-entire
+set argtextobj
+set sneak
+
