@@ -1,0 +1,9 @@
+LAYOUT = main-horizontal
+---
+code .
+---
+cd backend
+yarn devRun
+---
+cd frontend
+yarn start
