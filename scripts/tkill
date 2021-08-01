@@ -1,0 +1,7 @@
+#!/bin/bash
+
+tmux set-hook before-kill-window 'run-shell "
+   tmux list-panes -t \"#{window_id}\" -F \"##{pane_id}\" | xargs -I {} tmux send-keys -t {} C-c
+"'
+
+tmux kill-window

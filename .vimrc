@@ -53,6 +53,7 @@ map *  <Plug>(incsearch-nohl-*)
 map #  <Plug>(incsearch-nohl-#)
 map g* <Plug>(incsearch-nohl-g*)
 map g# <Plug>(incsearch-nohl-g#)
+nnoremap Y y$
 
 set timeoutlen=1000 ttimeoutlen=0
 set laststatus=2
